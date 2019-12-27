@@ -1,0 +1,42 @@
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.form {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+    width: 75%;
+    margin-bottom: 1rem;
+    padding: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.form input[type="text"], .form input[type="password"] {
+    display: block;
+    width: 100%;
+    background: #fff;
+    border: 2px solid black;
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 25px;
+}

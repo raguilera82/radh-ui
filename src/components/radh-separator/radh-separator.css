@@ -1,0 +1,4 @@
+.separator {
+  width: 100%;
+  height: var(--size, 8px);
+}

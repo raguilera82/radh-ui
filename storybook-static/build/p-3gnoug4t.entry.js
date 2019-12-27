@@ -1,0 +1,1 @@
+import{r,h as s}from"./p-9176a1c1.js";const t=class{constructor(s){r(this,s)}render(){return s("div",null,"2.1.0")}static get style(){return""}};export{t as radh_version};

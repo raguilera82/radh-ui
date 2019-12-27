@@ -1,0 +1,1 @@
+import{r,h as a}from"./p-9176a1c1.js";const s=class{constructor(a){r(this,a)}render(){return a("img",{class:"card-image",src:this.src,alt:this.alt})}static get style(){return".card-image{width:100%;margin:calc(var(--size, 8px) * 4) 0}\@media (max-width:580px){.card-image{display:block}}"}};export{s as radh_card_image};

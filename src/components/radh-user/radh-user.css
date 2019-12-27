@@ -1,0 +1,13 @@
+/**
+ * @prop --radh-user-title-color: Color of the title
+ * @prop --radh-user-width: Card width
+ * @prop --radh-user-border-color: Card border Color
+ */
+
+.login {
+    color: var(--radh-user-login-color, red);
+}
+
+.name {
+    color: var(--radh-user-name-color, red);
+}

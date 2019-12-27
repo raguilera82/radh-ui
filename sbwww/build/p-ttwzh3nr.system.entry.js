@@ -1,0 +1,1 @@
+System.register(["./p-b3512107.system.js"],(function(e){"use strict";var r,t;return{setters:[function(e){r=e.r;t=e.h}],execute:function(){var n="2.1.0";var u=e("radh_version",function(){function e(e){r(this,e)}e.prototype.render=function(){return t("div",null,n)};Object.defineProperty(e,"style",{get:function(){return""},enumerable:true,configurable:true});return e}())}}}));

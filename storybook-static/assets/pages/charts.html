@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+    <title>Charts Examples</title>
+    <script src="/build/radh-ui.js"></script>
+</head>
+
+<body>
+
+    <radh-version></radh-version>
+
+    <radh-nav></radh-nav>
+    
+    <h1>Chart.js Examples</h1>
+
+    <radh-chart></radh-chart>
+
+    <script src="/assets/js/jquery.min.js"></script>
+
+    <script src="/assets/js/load-content.js"></script>
+
+    <script>
+        var radhChart = document.querySelector('radh-chart');
+        radhChart.labels = ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"];
+        radhChart.values = [3, 19, 3, 50, 20, 3];
+    </script>
+
+</body>
+
+</html>
