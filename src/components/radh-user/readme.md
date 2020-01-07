@@ -33,15 +33,6 @@ Type: `Promise<void>`
 
 
 
-## CSS Custom Properties
-
-| Name                       | Description        |
-| -------------------------- | ------------------ |
-| `--radh-user-border-color` | Card border Color  |
-| `--radh-user-title-color`  | Color of the title |
-| `--radh-user-width`        | Card width         |
-
-
 ## Dependencies
 
 ### Used by

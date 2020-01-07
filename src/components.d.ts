@@ -84,6 +84,12 @@ export namespace Components {
     'color': string;
     'height': string;
   }
+  interface RadhSwappyRadios {
+    'getSelectedRadio': () => Promise<number>;
+    'labelRadios': string;
+    'nameRadios': string;
+    'optionsRadios': string[];
+  }
   interface RadhToast {
     'launchToast': (desc: string) => Promise<void>;
   }
@@ -292,6 +298,12 @@ declare global {
     new (): HTMLRadhSeparatorElement;
   };
 
+  interface HTMLRadhSwappyRadiosElement extends Components.RadhSwappyRadios, HTMLStencilElement {}
+  var HTMLRadhSwappyRadiosElement: {
+    prototype: HTMLRadhSwappyRadiosElement;
+    new (): HTMLRadhSwappyRadiosElement;
+  };
+
   interface HTMLRadhToastElement extends Components.RadhToast, HTMLStencilElement {}
   var HTMLRadhToastElement: {
     prototype: HTMLRadhToastElement;
@@ -357,6 +369,7 @@ declare global {
     'radh-nav': HTMLRadhNavElement;
     'radh-page-container': HTMLRadhPageContainerElement;
     'radh-separator': HTMLRadhSeparatorElement;
+    'radh-swappy-radios': HTMLRadhSwappyRadiosElement;
     'radh-toast': HTMLRadhToastElement;
     'radh-url-code': HTMLRadhUrlCodeElement;
     'radh-user': HTMLRadhUserElement;
@@ -449,6 +462,12 @@ declare namespace LocalJSX {
     'color'?: string;
     'height'?: string;
   }
+  interface RadhSwappyRadios {
+    'labelRadios'?: string;
+    'nameRadios'?: string;
+    'onSelectedOption'?: (event: CustomEvent<any>) => void;
+    'optionsRadios'?: string[];
+  }
   interface RadhToast {}
   interface RadhUrlCode {}
   interface RadhUser {
@@ -511,6 +530,7 @@ declare namespace LocalJSX {
     'radh-nav': RadhNav;
     'radh-page-container': RadhPageContainer;
     'radh-separator': RadhSeparator;
+    'radh-swappy-radios': RadhSwappyRadios;
     'radh-toast': RadhToast;
     'radh-url-code': RadhUrlCode;
     'radh-user': RadhUser;
@@ -555,6 +575,7 @@ declare module "@stencil/core" {
       'radh-nav': LocalJSX.RadhNav & JSXBase.HTMLAttributes<HTMLRadhNavElement>;
       'radh-page-container': LocalJSX.RadhPageContainer & JSXBase.HTMLAttributes<HTMLRadhPageContainerElement>;
       'radh-separator': LocalJSX.RadhSeparator & JSXBase.HTMLAttributes<HTMLRadhSeparatorElement>;
+      'radh-swappy-radios': LocalJSX.RadhSwappyRadios & JSXBase.HTMLAttributes<HTMLRadhSwappyRadiosElement>;
       'radh-toast': LocalJSX.RadhToast & JSXBase.HTMLAttributes<HTMLRadhToastElement>;
       'radh-url-code': LocalJSX.RadhUrlCode & JSXBase.HTMLAttributes<HTMLRadhUrlCodeElement>;
       'radh-user': LocalJSX.RadhUser & JSXBase.HTMLAttributes<HTMLRadhUserElement>;

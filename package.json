@@ -68,8 +68,8 @@
   "dependencies": {},
   "stencil": {
     "protocol": "http",
-    "host": "10.15.171.87",
-    "port": 3334,
+    "host": "localhost",
+    "port": 3333,
     "buildDir": "build"
   }
 }
