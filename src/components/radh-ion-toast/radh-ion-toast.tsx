@@ -7,7 +7,7 @@ import { Component, Prop } from "@stencil/core";
 })
 export class RadhIonToast {
   @Prop({ connect: "ion-toast-controller" })
-  toastCtrl: HTMLIonToastControllerElement;
+  toastCtrl;
 
   async componentDidLoad() {
     console.log("Cargo el radh io toast");
