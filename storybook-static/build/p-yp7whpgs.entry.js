@@ -1,1 +1,0 @@
-import{r,h as s}from"./p-9176a1c1.js";const t=class{constructor(s){r(this,s)}render(){return s("div",{class:"grid"},s("slot",null))}static get style(){return".grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));grid-gap:20px;-ms-flex-align:stretch;align-items:stretch}"}};export{t as radh_fluid_grid};

@@ -1,1 +1,0 @@
-import{r,h as a}from"./p-9176a1c1.js";const t=class{constructor(a){r(this,a)}render(){return a("div",null,a("a",{href:"https://leanpub.com/angular-guia-practica/c/CODE-DEVUI-AUTENTIA"},"https://leanpub.com/angular-guia-practica/c/CODE-DEVUI-AUTENTIA"))}static get style(){return""}};export{t as radh_url_code};

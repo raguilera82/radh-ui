@@ -5,7 +5,7 @@ function getComponentClosestLanguage(element: HTMLElement): string {
 
 function fetchLocaleStringsForComponent(componentName: string, locale: string): Promise<any> {
     return new Promise((resolve, reject): void => {
-        fetch(`/assets/i18n/${componentName}.i18n.${locale}.json`)
+        fetch(`/assets/i18n/${componentName}.${locale}.json`)
             .then((result) => {
                 if (result.ok) resolve(result.json());
                 else reject();

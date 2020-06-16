@@ -1,31 +1,17 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Stencil Storybook Wrapper | Component Starter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+
+  <script type="module" src="/build/radh-ui.esm.js"></script>
+  <script nomodule src="/build/radh-ui.js"></script>
+
 </head>
-
 <body>
-    <style>
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 16px;
-        }
 
-        header {
-            padding: 50px 20px;
-            text-align: center;
-        }
-    </style>
-    <header>
-        <h2>
-            Dev server to be used in-conjunction with Storybook server for testing components.
-        </h2>
-        <p>&copy;Sapient Consulting
-            <script>document.write(new Date().getFullYear())</script>
-        </p>
-    </header>
+  <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+
 </body>
-
 </html>

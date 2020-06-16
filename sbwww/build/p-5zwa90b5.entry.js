@@ -1,1 +1,0 @@
-import{r,h as t}from"./p-9176a1c1.js";const s=class{constructor(t){r(this,t),this.height="calc(var(--size, 8px) / 8)"}get style(){return{"background-color":this.color,height:this.height}}render(){return t("div",{class:"separator",style:this.style})}static get style(){return".separator{width:100%;height:var(--size,8px)}"}};export{s as radh_separator};
