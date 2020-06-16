@@ -1,6 +1,6 @@
 {
   "name": "radh-ui",
-  "version": "0.0.1",
+  "version": "2.2.0",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -21,12 +21,11 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
     "storybook": "start-storybook -p 6006 -s ./www",
-    "build-storybook": "build-storybook -o sbwww && cp -r ./www/assets ./sbwww/assets",
+    "build-storybook": "npm run build && build-storybook -o sbwww && cp -r ./www/assets ./sbwww/assets",
     "deploy": "npm run build-storybook && firebase deploy"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
-    "@ionic/core": "^5.2.1",
     "@stencil/core": "^1.12.2",
     "@storybook/addon-a11y": "^5.3.19",
     "@storybook/addon-actions": "^5.3.19",

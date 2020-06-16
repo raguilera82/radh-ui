@@ -80,8 +80,6 @@ export namespace Components {
         "name": string;
         "value": string;
     }
-    interface RadhIonToast {
-    }
     interface RadhLayoutCenter {
     }
     interface RadhLazyImg {
@@ -269,12 +267,6 @@ declare global {
         prototype: HTMLRadhInputTextElement;
         new (): HTMLRadhInputTextElement;
     };
-    interface HTMLRadhIonToastElement extends Components.RadhIonToast, HTMLStencilElement {
-    }
-    var HTMLRadhIonToastElement: {
-        prototype: HTMLRadhIonToastElement;
-        new (): HTMLRadhIonToastElement;
-    };
     interface HTMLRadhLayoutCenterElement extends Components.RadhLayoutCenter, HTMLStencilElement {
     }
     var HTMLRadhLayoutCenterElement: {
@@ -381,7 +373,6 @@ declare global {
         "radh-holy": HTMLRadhHolyElement;
         "radh-input": HTMLRadhInputElement;
         "radh-input-text": HTMLRadhInputTextElement;
-        "radh-ion-toast": HTMLRadhIonToastElement;
         "radh-layout-center": HTMLRadhLayoutCenterElement;
         "radh-lazy-img": HTMLRadhLazyImgElement;
         "radh-locale-select": HTMLRadhLocaleSelectElement;
@@ -478,8 +469,6 @@ declare namespace LocalJSX {
         "onChanged"?: (event: CustomEvent<string>) => void;
         "value"?: string;
     }
-    interface RadhIonToast {
-    }
     interface RadhLayoutCenter {
     }
     interface RadhLazyImg {
@@ -567,7 +556,6 @@ declare namespace LocalJSX {
         "radh-holy": RadhHoly;
         "radh-input": RadhInput;
         "radh-input-text": RadhInputText;
-        "radh-ion-toast": RadhIonToast;
         "radh-layout-center": RadhLayoutCenter;
         "radh-lazy-img": RadhLazyImg;
         "radh-locale-select": RadhLocaleSelect;
@@ -609,7 +597,6 @@ declare module "@stencil/core" {
             "radh-holy": LocalJSX.RadhHoly & JSXBase.HTMLAttributes<HTMLRadhHolyElement>;
             "radh-input": LocalJSX.RadhInput & JSXBase.HTMLAttributes<HTMLRadhInputElement>;
             "radh-input-text": LocalJSX.RadhInputText & JSXBase.HTMLAttributes<HTMLRadhInputTextElement>;
-            "radh-ion-toast": LocalJSX.RadhIonToast & JSXBase.HTMLAttributes<HTMLRadhIonToastElement>;
             "radh-layout-center": LocalJSX.RadhLayoutCenter & JSXBase.HTMLAttributes<HTMLRadhLayoutCenterElement>;
             "radh-lazy-img": LocalJSX.RadhLazyImg & JSXBase.HTMLAttributes<HTMLRadhLazyImgElement>;
             "radh-locale-select": LocalJSX.RadhLocaleSelect & JSXBase.HTMLAttributes<HTMLRadhLocaleSelectElement>;
