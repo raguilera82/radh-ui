@@ -16,7 +16,7 @@ export class RadhCounter {
     render() {
       return (
         <div>
-          <button onClick={this.increment}>{this.count}</button>
+          <radh-button onClick={this.increment}>{this.count}</radh-button>
         </div>
       );
     }

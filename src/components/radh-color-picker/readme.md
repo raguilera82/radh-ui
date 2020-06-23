@@ -20,6 +20,19 @@
 | `colorChanged` |             | `CustomEvent<any>` |
 
 
+## Dependencies
+
+### Depends on
+
+- [radh-button](../radh-button)
+
+### Graph
+```mermaid
+graph TD;
+  radh-color-picker --> radh-button
+  style radh-color-picker fill:#f9f,stroke:#333,stroke-width:4px
+```
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

@@ -4,7 +4,7 @@ import notes from './readme.md';
 
 addDecorator(withA11y);
 
-storiesOf('radh-counter', module)
+storiesOf('Components/radh-counter', module)
     .add('default', () => {
         const radhCounter = document.createElement('radh-counter');
         return radhCounter;

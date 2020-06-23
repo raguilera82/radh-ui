@@ -4,7 +4,7 @@ import notes from './readme.md';
 
 addDecorator(withA11y);
 
-storiesOf('radh-auto-complete', module)
+storiesOf('Components/radh-auto-complete', module)
     .add('default', () =>
         `<radh-autocomplete label="Elige la fruta" label-by="fruitlabel" isAsync="false"
       items='[ "Apple", "Banana", "Orange", "Mango", "Pear", "Peach", "Grape", "Tangerine", "Pineapple"]'>

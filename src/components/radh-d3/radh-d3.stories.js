@@ -4,5 +4,5 @@ import notes from './readme.md';
 
 addDecorator(withA11y);
 
-storiesOf('radh-d3', module)
+storiesOf('Integrations/radh-d3', module)
     .add('default', () => `<radh-d3></radh-d3>`, { notes });

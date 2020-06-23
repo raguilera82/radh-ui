@@ -32,7 +32,7 @@ export class ColorPicker {
 
   renderResetButton() {
     if (this.resettable) {
-      return <button onClick={() => this.reset()}>X</button>;
+      return <radh-button onClick={() => this.reset()}>X</radh-button>;
     }
   }
 
