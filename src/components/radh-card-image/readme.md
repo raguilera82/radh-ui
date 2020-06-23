@@ -7,10 +7,10 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type     | Default     |
-| -------- | --------- | ----------- | -------- | ----------- |
-| `alt`    | `alt`     |             | `string` | `undefined` |
-| `src`    | `src`     |             | `string` | `undefined` |
+| Property              | Attribute | Description | Type     | Default     |
+| --------------------- | --------- | ----------- | -------- | ----------- |
+| `imgAlt` _(required)_ | `img-alt` |             | `string` | `undefined` |
+| `imgSrc` _(required)_ | `img-src` |             | `string` | `undefined` |
 
 
 ----------------------------------------------

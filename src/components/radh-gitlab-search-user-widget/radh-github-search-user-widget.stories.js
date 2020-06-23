@@ -5,6 +5,6 @@ import notes from './readme.md';
 
 addDecorator(withA11y);
 
-storiesOf('radh-github-search-user-widget', module)
+storiesOf('Widgets/radh-github-search-user-widget', module)
     .addDecorator(withActions("userSearched"))
     .add('default', () => '<radh-github-search-user-widget></radh-github-search-user-widget>', { notes });

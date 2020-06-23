@@ -4,7 +4,7 @@ import notes from './readme.md';
 
 addDecorator(withA11y);
 
-storiesOf('Layouts|radh-card', module)
+storiesOf('99-Experimental/radh-card', module)
     .add('default', () => `
         <radh-page-container>
             <radh-card slot="foreground">

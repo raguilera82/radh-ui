@@ -6,10 +6,10 @@ import { Component, h, Prop } from '@stencil/core';
   shadow: true
 })
 export class CardImage {
-  @Prop() src: string;
-  @Prop() alt: string;
+  @Prop() imgSrc!: string;
+  @Prop() imgAlt!: string;
 
   render() {
-    return <img class="card-image" src={this.src} alt={this.alt} />;
+    return <img class="card-image" src={this.imgSrc} alt={this.imgAlt} />;
   }
 }

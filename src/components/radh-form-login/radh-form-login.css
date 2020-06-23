@@ -7,7 +7,7 @@ fieldset {
     vertical-align: baseline;
 }
 
-.form {
+form {
     width: 75%;
     margin: 0 auto;
     padding-bottom: 30px;
@@ -23,7 +23,7 @@ fieldset {
     text-align: left;
 }
 
-.form label {
+form label {
     display: block;
     margin-bottom: 5px;
     color: #333;
@@ -31,7 +31,7 @@ fieldset {
     text-transform: uppercase;
 }
 
-.form input[type="text"], .form input[type="password"] {
+form input[type="text"], .form input[type="password"] {
     display: block;
     width: 100%;
     background: #fff;

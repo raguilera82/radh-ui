@@ -42,8 +42,8 @@ export namespace Components {
     interface RadhCard {
     }
     interface RadhCardImage {
-        "alt": string;
-        "src": string;
+        "imgAlt": string;
+        "imgSrc": string;
     }
     interface RadhColorPicker {
         "defaultValue": string;
@@ -425,8 +425,8 @@ declare namespace LocalJSX {
     interface RadhCard {
     }
     interface RadhCardImage {
-        "alt"?: string;
-        "src"?: string;
+        "imgAlt": string;
+        "imgSrc": string;
     }
     interface RadhColorPicker {
         "defaultValue"?: string;
