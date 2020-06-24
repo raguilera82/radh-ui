@@ -5,6 +5,14 @@
 <!-- Auto Generated Below -->
 
 
+## CSS Custom Properties
+
+| Name                             | Description |
+| -------------------------------- | ----------- |
+| `--radh-button-background-color` |             |
+| `--radh-button-color`            |             |
+
+
 ## Dependencies
 
 ### Used by

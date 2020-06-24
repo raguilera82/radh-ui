@@ -1,3 +1,8 @@
+/**
+ * @prop --radh-button-background-color
+ * @prop --radh-button-color
+ */
+
 button {
   background-color: var(--radh-button-background-color, orange);
   border: none;

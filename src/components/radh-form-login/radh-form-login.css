@@ -31,7 +31,7 @@ form label {
     text-transform: uppercase;
 }
 
-form input[type="text"], .form input[type="password"] {
+form input[type="text"], form input[type="password"] {
     display: block;
     width: 100%;
     background: #fff;
